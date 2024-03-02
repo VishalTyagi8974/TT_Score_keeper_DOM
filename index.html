@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TT_Score_keeper_DOM</title>
+    <link rel="stylesheet" href="TT_Score_keeper_DOM.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <img src="tt_proj.jpg" alt="">
+        <h1>Table Tennis Score Keeper</h1>
+        <h2><span id="p1">0</span> to <span id="p2">0</span></h2>
+        <p>Use the buttons below to keep score.</p>
+
+        <span id="scores">
+            <label for="maxscore">Playing To </label>
+            <select name="" id="maxscore">
+                <option value="5">5</option>
+                <option value="7">7</option>
+                <option value="11">11</option>
+                <option value="21">21</option>
+            </select>
+        </span><br>
+        <button id="player1">+1 Player1</button><button id="player2">+1 Player2</button><button
+            id="reset">Reset</button>
+        <script src="TT_Score_keeper_DOM.js"></script>
+    </section>
+</body>
+
+</html>

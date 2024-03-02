@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #edede9;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+
+
+}
+
+section {
+    box-shadow: -1px 1px 15px rgb(138, 138, 138), 1px -1px 15px rgb(138, 138, 138);
+    margin-top: 4%;
+    width: 30%;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 0.8rem;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid rgb(138, 138, 138);
+}
+
+h2 {
+    padding-left: 0.5em;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    padding-left: 1em;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 850px) {
+    section {
+        width: 350px;
+    }
+}
+
+#scores {
+    display: block;
+    padding-left: 1em;
+}
+
+#scores select {
+    border-radius: 20px;
+    line-height: 2em;
+    padding: 0.3em 0.1em;
+
+}
+
+button {
+    width: 33.3333%;
+    height: 2.3em;
+    border: none;
+}
+
+button:nth-of-type(1) {
+    background-color: #06d6a0;
+}
+
+button:nth-of-type(1):active {
+    background-color: #07b989;
+}
+
+button:nth-of-type(2) {
+    background-color: #0096c7;
+}
+
+button:nth-of-type(2):active {
+    background-color: #0179a1;
+}
+
+button:nth-of-type(3) {
+    background-color: #e63946;
+}
+
+button:nth-of-type(3):active {
+    background-color: #ad2c37;
+}
+
+.disable {
+    opacity: 0.6;
+}
+
+.disable:nth-of-type(2):active {
+    background-color: #0096c7;
+    opacity: 0.6;
+
+}
+
+.disable:nth-of-type(1):active {
+    opacity: 0.6;
+    background-color: #06d6a0;
+}
+
+
+.win {
+    color: #07b989;
+}
+
+.loose {
+    color: #e63946;
+}
